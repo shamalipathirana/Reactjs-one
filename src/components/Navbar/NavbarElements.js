@@ -6,7 +6,7 @@ import { Link as LinkS } from 'react-scroll'
 export const Nav = styled.nav`
     background:#fff3eb;
     height:80px;
-   /* margin-top:-80px;*/
+    margin-top:-80px;*/
     display:flex;
     justify-content:center;
     align-items:center;
@@ -73,10 +73,12 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
      height : 80px;
+   
 `
 
 export const NavLinks = styled(LinkS)`
     color:#010954;
+    text-decoration:bold;
     display:flex;
     align-items:center;
     text-decoration:none;
@@ -104,6 +106,8 @@ export const NavBtnLink = styled(LinkR)`
     border-radius:50px;
     background:#ff7e71;
     white-space:nowrap;
+    position:absolute;
+    right:20px;
     padding:10px 22px;
     color:#010606;
     outline:none;
