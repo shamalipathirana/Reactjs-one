@@ -27,7 +27,9 @@ const HeroSection = () => {
                     <HeroBtnWrapper>
                         <Button to='signup' onMouseEnter={onHover}
 
-                        onMouseLeave={onHover}>
+                        onMouseLeave={onHover}
+                        primary='true'
+                        dark='true'>
 
                         Get Started {hover ? <ArrowForward/>: <ArrowRight/>}
 
